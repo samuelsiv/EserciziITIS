@@ -3,7 +3,7 @@
 int main()
 {
     int numeri[11];
-    int posizione = 0, numero;
+    int numero, posizione = 0;
     double somma = 0.0;
     double media = 0.0;
 
