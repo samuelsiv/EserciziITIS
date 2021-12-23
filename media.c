@@ -7,7 +7,6 @@ int main()
     double somma = 0.0;
     double media = 0.0;
 
-
     while (posizione < 10) {
         printf("Inserisci un numero: ");
         scanf_s("%d", &numero);
@@ -22,5 +21,4 @@ int main()
     media = somma / 10; // 10 è il numero di quanti elementi ci sono nell'array
 
     printf("Media totale: %f", media);
-
 }
